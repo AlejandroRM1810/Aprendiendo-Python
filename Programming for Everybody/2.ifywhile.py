@@ -1,6 +1,6 @@
 #creacion de variables
 x = 2
-y = 8 #sdfafas
+y = 8
 n = 4
 
 #mostrar en pantalla numero + aumento de ese numero
