@@ -14,6 +14,7 @@ if x == 5:
 if x > 4:
     print ('Greater than 4\n')
 
+    #el array de números siempre empieza en 0 por lo que range (3) sería ---> 0,1,2
 for i in range (3):
     print (i)
     if i > 1:
@@ -26,9 +27,9 @@ x = input ('Dime un valor de x para comparar si es mayor de 10 y de 20 a la vez:
 if int(x) < 10:
     print ('Menor que 10.')
 elif int(x) < 20:
-    print ('Mayor que 10, pero menor que 20.')
+    print ('Mayor o igual que 10, pero menor que 20.')
 else:
-    print ('Mayor que 20.')
+    print ('Mayor o igual a 20.')
 print ('Finish\n')
 
 # try y except sirven para que el programa intente algo y si da error que haga otra cosa, pero que no se pare al no saber continuar, ej:
@@ -38,23 +39,19 @@ try:
     istr = int(astr)
 except:
     istr = -1
-
-print ('First', istr)
+    print ('First', istr)
 
 astr = '123'
 try:
     istr = int(astr)
 except:
+    istr = -1
     print ('Second', istr)
 
 ###
 astr = input ('Enter a number: ')
 try:
     istr = int(astr)
-except:
-    istr = 'xrbasfasfgasfrwe'
-
-if istr != 'xrbasfasfgasfrwe':
     print ('Nice work')
-else:
+except:
     print ('Not a number.')

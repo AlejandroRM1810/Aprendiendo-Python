@@ -21,6 +21,7 @@ b = 3.3
 c = a * b
 d = 17
 
+# // muestra la parte entera de la division
 print (d/a)
 print (d//a)
 print (int(d/a))
@@ -38,6 +39,7 @@ print (aaa)
 nam = input ('Whats your name?\n')
 print ('hello', nam, '\n\n\n')
 
+#lo que sale del imput es un string, si fuese un número y queremos hacer calculos necesitaremos un int() delante
 inp = input('Europe floor? ')
 USf = int(inp) + 1
 print ('US floor:', USf)

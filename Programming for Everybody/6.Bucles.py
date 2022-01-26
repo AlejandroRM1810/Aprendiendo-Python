@@ -1,7 +1,7 @@
 #FOR se utiliza para bucles de X veces o entre 2 puntos 
 
 #for "algo" in range (X) hace una cuenta de 0 hasta X-1 ya que entra al búcle X veces.
-'''
+
 for x in range (4):
     print (x)
 print ("\n")
@@ -26,9 +26,9 @@ for z in range (10,20):
         break
 print ("\n")
 
-''' 
+
 # Encambio WHILE se utiliza para iterar infinitas veces hasta una condición concreta impuesta en el while
-'''
+
 n = 5
 while n >= 0:
     print (n)
@@ -48,7 +48,7 @@ while True:
 
 print ("El bucle ha terminado")
 
-''' 
+ 
 #CONTINUE vuelve al inicio del loop,  #BREAK sale del loop directamente   
 #RETURN devuelve un valor cuando el loop espera devolver algo y termina el loop
 
