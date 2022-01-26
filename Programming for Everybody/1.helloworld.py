@@ -1,6 +1,6 @@
 print('Hello world')
 
-# el sharp hace que la línea se vuelva comentario, las triples comillas hacen varais líneas comentario
+# el sharp hace que la línea se vuelva comentario, las triples comillas hacen varias líneas comentario
 # aunque salgan en rojo
 
 ''' bla bla bla bla 
