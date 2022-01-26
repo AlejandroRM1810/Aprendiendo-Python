@@ -41,5 +41,3 @@ print ('hello', nam, '\n\n\n')
 inp = input('Europe floor? ')
 USf = int(inp) + 1
 print ('US floor:', USf)
-
-#Eres un caraculo
