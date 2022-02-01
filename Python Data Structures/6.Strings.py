@@ -57,5 +57,3 @@ boolean = 'x' in fruit
 print (boolean)
 if 'ppl' in fruit:
     print ('Encontrado!!')
-
-123
