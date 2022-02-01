@@ -1,5 +1,6 @@
-#FOR se utiliza para bucles de X veces o entre 2 puntos 
+#Bucles for y while
 
+#FOR se utiliza para bucles de X veces o entre 2 puntos 
 #for "algo" in range (X) hace una cuenta de 0 hasta X-1 ya que entra al búcle X veces.
 
 for x in range (4):
@@ -18,6 +19,7 @@ print ("\nDone")
 
 for i in [2,4,5,6,3]:
     print (i)
+print ("\n")
 
 #break sirve para romper los bucles cuando quieras
 for z in range (10,20):
@@ -36,16 +38,13 @@ while n >= 0:
     
 print ("Escribe 'done' cuando quieras acabar el loop")
 while True:
-    x = raw_input ("> ")
-    if x == "Done":
+    line = (input ('> ')).lower()
+
+    if line == "done":
         break
-    elif x == "done":
-        break
-    elif x[0] == "#":
+    if line[0] == "#":
         continue
-
-    print (x)
-
+    print (line)
 print ("El bucle ha terminado")
 
  
@@ -67,9 +66,9 @@ for numero in [a, b, c, d, e, f]:
     if int(numero) > int(nMayor):
         nMayor = numero
 
-print ("El mayor de los 6 números es:", nMayor)
+print ("El mayor de los 6 números es:", nMayor, '\n')
 
-#Boolean Varible -->  True or False
+#Variable booleana -->  True or False, si quisieramos poner 'Verdadero' o 'Falso' nos tocaría hacerlo como string y sus respectivas comillas, encambio los booleanos se puede imprimir por pantalla
 found = False
 for value in [a,b,c,d,e,f]:
     if value == "3":
@@ -81,7 +80,7 @@ print ("El número 3 ha sido encontrado entre los numeros de muestra?", found)
 smallest = None
 for value in [a,b,c,d,e,f]:
     if smallest is None:
-        smallest = (value)
+        smallest = value
     elif int (value) < int (smallest):
         smallest = value
     print (smallest, value)

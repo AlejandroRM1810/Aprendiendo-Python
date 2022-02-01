@@ -1,7 +1,6 @@
 #strings (cadenas)
-'''
 
-# las cadenas son de caracteres, si las sumas las concatena (une)
+# las cadenas son de caracteres, si las sumas las concatena (une) SIN añadir un espacio entre medias
 str1 = "Hello "
 str2 = "World"
 str3 = str1 + str2
@@ -16,6 +15,7 @@ print (str2)
 str1 = int(input ("Dime un número: "))
 str2 = str1 + 10
 print (str2)
+print ('\n')
 
 # cadena[algo] algo marca a que altura de la cadena quieres hacer algo, empezando desde el 0.
 fruit = "banana"
@@ -23,7 +23,8 @@ print (fruit[3])
 print (fruit[0])
 
 # len ()  proviene de length, lo que nos marca la longitud de la cadena, por tanto len(casa) = 4; len (banana) = 6
-print (len (fruit),"\n")
+print (len (fruit))
+print ('\n')
 
 fruit = "banana"
 index = 0
@@ -41,7 +42,7 @@ for letter in fruit:
 
 print ("hay", count, "A's en esta palabra")
 
-'''
+
 
 #Puedes utilizar posiciones dentro de las cadenas:
 
@@ -51,3 +52,10 @@ print (fruits[3:16])
 print (fruits[:5])
 print (fruits[:])
 
+fruit = 'apple'
+boolean = 'x' in fruit
+print (boolean)
+if 'ppl' in fruit:
+    print ('Encontrado!!')
+
+1

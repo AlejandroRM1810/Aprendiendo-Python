@@ -1,4 +1,4 @@
-#constantes
+#Expresiones
 #para decimales el punto, la coma diferencia variables. El print de letras se puede hacer con 'asd'  o "asd"
 
 
